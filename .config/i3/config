@@ -171,7 +171,7 @@ bindsym $mod+r mode "resize"
 #}
 
 # Polybar
-exec --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Screenshot
 bindsym Print exec --no-startup-id maim -s --format png /dev/stdout | xclip -selection clipboard -t image/png -i
