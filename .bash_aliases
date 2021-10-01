@@ -5,6 +5,8 @@ alias   c='clear'
 alias  cl='clear'
 alias clr='clear'
 
+alias e='exit'
+
 alias ls='ls --color=auto'
 alias la='ls -A'
 alias ll='ls -l'
