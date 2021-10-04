@@ -194,6 +194,9 @@ exec --no-startup-id i3-msg workspace 1
 # Enable compton
 exec_always --no-startup-id picom
 
+# PCManFM daemon
+exec --no-startup-id pcmanfm -d
+
 # Auth agent
 #exec --no-startup-id  /usr/lib/polkit-kde-authentication-agent-1
 
